@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'popi_service.dart';
+// import 'popi_service.dart';
 
 class EvaluatePrescriptionPage extends StatefulWidget {
   const EvaluatePrescriptionPage({super.key});
@@ -52,7 +52,7 @@ class _EvaluatePrescriptionPageState extends State<EvaluatePrescriptionPage> {
 
     final rules = popiDatabase;
 
-    final poids = double.tryParse(poidsCtrl.text) ?? 0;
+    // final poids = double.tryParse(poidsCtrl.text) ?? 0;
     final age = int.tryParse(ageCtrl.text) ?? 0;
     final duree = int.tryParse(dureeCtrl.text) ?? 0;
     final dosage = double.tryParse(dosageCtrl.text) ?? 0;
